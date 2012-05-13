@@ -1,17 +1,8 @@
-# Nitrogen Web Framework for Erlang
+# Fork to test implementation of restful_* elements
 
-Nitrogen is an Erlang-based web framework that allows you to develop
-infinitely scaleable, Ajax-rich web applications using a pure Erlang 
-technology stack.
+if you don't want to test this stuff you most probably want to visit
+https://github.com/nitrogen
 
-See the [Nitrogen Project website](http://nitrogenproject.com) for
-additional information.
+# Status
 
-## Getting Started
-
-Follow the tutorial at
-[http://nitrogenproject.com/doc/tutorial.html](http://nitrogenproject.com/doc/tutorial.html)
-
-## Building Nitrogen on Windows
-
-Instructions for building on windows can be found in [rel/overlay/win](https://github.com/nitrogen/nitrogen/blob/master/rel/overlay/win/README.md)
+Incomplete 
