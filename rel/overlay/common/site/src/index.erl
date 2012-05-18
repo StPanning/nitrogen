@@ -14,22 +14,15 @@ body() ->
 
 inner_body() -> 
     [
-        #h1 { text="Welcome to Nitrogen" },
-        #p{},
-        "
-        If you can see this page, then your Nitrogen server is up and
-        running. Click the button below to test postbacks.
-        ",
-        #p{}, 	
-        #button { id=button, text="Click me!", postback=click },
-        #p{},
-        "
-        Run <b>./bin/dev help</b> to see some useful developer commands.
-        "
+	#h1{text="Overview"},
+	#list{body=[
+	    #listitem{body=[#link{text="restful_form", url="restful_form"}]}
+%	    #listitem{body[]},
+%	    #listitem{body[]},
+%	    #listitem{body[]},
+	]}
+	
+
     ].
 	
-event(click) ->
-    wf:replace(button, #panel { 
-        body="You clicked the button!", 
-        actions=#effect { effect=highlight }
-    }).
+
