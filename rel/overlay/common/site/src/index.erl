@@ -16,10 +16,8 @@ inner_body() ->
     [
 	#h1{text="Overview"},
 	#list{body=[
-	    #listitem{body=[#link{text="restful_form", url="restful_form"}]}
-%	    #listitem{body[]},
-%	    #listitem{body[]},
-%	    #listitem{body[]},
+	    #listitem{body=[#link{text="restful_form", url="restful_form"}]},
+	    #listitem{body=[#link{text="compatibility", url="compatibility"}]}
 	]}
 	
 
